@@ -1,3 +1,4 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@500;600;700&display=swap");
 .container {
   display: flex;
   justify-content: space-between;
@@ -24,7 +25,7 @@
 }
 
 .my-logo {
-  font-family: 'Poppins', 'Helvetica', 'Arial', 'Verdana', 'Tahoma';
+  font-family: 'Poppins', sans-serif;
   font-style: normal;
   font-weight: 700;
   font-size: 18px;
@@ -33,7 +34,7 @@
 }
 
 .nav-button {
-  background: #ffffff;
+  background: #fff;
   border: none;
   padding: 12px;
   gap: 10px;
@@ -41,7 +42,7 @@
 
 .nav-button:hover {
   background: #6070ff;
-  box-shadow: 0px 8px 16px rgba(64, 83, 252, 0.24);
+  box-shadow: 1px 8px 16px rgba(64, 83, 252, 0.24);
 }
 
 .nav-button:active {
@@ -61,7 +62,7 @@
   align-items: flex-end;
   justify-content: center;
   height: 25%;
-  font-family: 'Poppins', 'Helvetica', 'Arial', 'Verdana', 'Tahoma';
+  font-family: 'Poppins', sans-serif;
   font-style: normal;
   font-weight: 700;
   font-size: 40px;
@@ -71,7 +72,7 @@
 
 .description {
   height: 25%;
-  font-family: 'Poppins', 'Helvetica', 'Arial', 'Verdana', 'Tahoma';
+  font-family: 'Poppins', sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 16px;
@@ -83,7 +84,7 @@
 .social-media {
   /* display: flex;
   flex-wrap: wrap; */
-  font-family: 'Poppins', 'Helvetica', 'Arial', 'Verdana', 'Tahoma';
+  font-family: 'Poppins', sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 16px;
