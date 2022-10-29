@@ -32,29 +32,21 @@
   font-size: 18px;
   line-height: 20px;
   color: #6070ff;
+  text-decoration: none;
 }
 
-.nav-button {
-  background: #fff;
-  border: none;
-  padding: 12px;
-  gap: 10px;
-}
-
-.nav-button:hover {
-  background: #6070ff;
-  box-shadow: 1px 8px 16px rgba(64, 83, 252, 0.24);
-}
-
-.nav-button:active {
-  background: #2230d2;
+.container-headline {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  background-image: url("images/header.svg");
+  background-repeat: repeat;
 }
 
 .headline {
   display: flex;
-  align-items: center;
-  height: 480px;
-  padding: 114px 24px;
+  height: 300px;
+  padding: 50px 24px;
   flex-wrap: wrap;
 }
 
@@ -62,17 +54,15 @@
   display: flex;
   align-items: flex-end;
   justify-content: center;
-  height: 25%;
   font-family: 'Poppins', sans-serif;
   font-style: normal;
   font-weight: 700;
+  color: #172b4d;
   font-size: 40px;
   line-height: 52px;
-  color: #172b4d;
 }
 
 .description {
-  height: 25%;
   font-family: 'Poppins', sans-serif;
   font-style: normal;
   font-weight: 400;
@@ -83,44 +73,28 @@
 }
 
 .social-media {
-  /* display: flex;
-  flex-wrap: wrap; */
+  height: 25%;
+  width: 50%;
+  align-items: flex-start;
+}
+
+.media-icons {
+  margin-top: 12px;
+  list-style: none;
+  display: flex;
+  padding: 0;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+
+#media-text {
   font-family: 'Poppins', sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 16px;
-  line-height: 24px;
   color: #7f8cff;
-  height: 25%;
-  width: 100%;
-  align-items: flex-start;
 }
 
-#twitter {
-  position: relative;
-  top: 10px;
-}
-
-#linkedin {
-  position: relative;
-  left: 10px;
-  top: 10px;
-}
-
-#M {
-  position: relative;
-  left: 20px;
-  top: 10px;
-}
-
-#github {
-  position: relative;
-  left: 30px;
-  top: 10px;
-}
-
-#victory {
-  position: relative;
-  left: 40px;
-  top: 10px;
+.icon-list {
+  display: inline-flex;
 }
