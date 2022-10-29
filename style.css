@@ -294,10 +294,8 @@
 
 .about-section {
   display: flex;
-  justify-content: center;
   align-items: center;
   flex-direction: column;
-  justify-content: space-between;
 }
 
 .headline-about {
@@ -306,7 +304,7 @@
   flex-wrap: wrap;
 }
 
-#resume{
+#resume {
   width: 165px;
   margin-top: 20px;
   margin-bottom: 75px;
