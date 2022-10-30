@@ -4,6 +4,9 @@
 
 Portfolio Setup and Mobile first
 
+### Project Description
+
+In this simple portfolio project, I have tried to imitate a template from figma according to the requirement of Microverse's "Portfolio Project setup and mobile version". All the designs are done using HTML and CSS. No functionality requiring JS has been buit.
 
 ## Built With
 
