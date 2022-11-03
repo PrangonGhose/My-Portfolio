@@ -1,7 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@500;600;700&display=swap");
 
 @media (min-width: 768px) {
-
   .container {
     display: flex;
     justify-content: space-between;
@@ -26,12 +25,11 @@
   .option-list {
     display: flex;
     list-style: none;
-    /* gap: 100px; */
   }
 
   .option-list-items {
     padding-right: 60px;
-    font-family: 'Poppins';
+    font-family: 'Poppins', sans-serif;
     font-style: normal;
     font-weight: 500;
     font-size: 15px;
@@ -70,7 +68,7 @@
     display: flex;
     justify-content: center;
     background-image: url("images/header\ background\ shape-desktop-desktop.svg");
-    border-radius: 0px 0px 0px 100px;
+    border-radius: 0 0 0 100px;
   }
 
   .headline {
@@ -410,7 +408,7 @@
   }
 
   #contact-para {
-    font-family: 'Poppins';
+    font-family: 'Poppins', sans-serif;
     font-style: normal;
     font-weight: 400;
     font-size: 20px;
@@ -428,7 +426,7 @@
   }
 
   form {
-    font-family: 'Poppins';
+    font-family: 'Poppins', sans-serif;
     font-style: normal;
     font-weight: 400;
     font-size: 17px;
@@ -436,7 +434,7 @@
   }
 
   #input {
-    font-family: 'Poppins';
+    font-family: 'Poppins', sans-serif;
     font-style: normal;
     font-weight: 400;
     font-size: 17px;
@@ -814,7 +812,7 @@
   }
 
   #contact-line {
-    font-family: 'Poppins';
+    font-family: 'Poppins', sans-serif;
     font-style: normal;
     font-weight: 700;
     font-size: 40px;
@@ -855,7 +853,7 @@
   }
 
   #contact-para {
-    font-family: 'Poppins';
+    font-family: 'Poppins', sans-serif;
     font-style: normal;
     font-weight: 400;
     font-size: 20px;
@@ -865,7 +863,7 @@
   }
 
   form {
-    font-family: 'Poppins';
+    font-family: 'Poppins', sans-serif;
     font-style: normal;
     font-weight: 400;
     font-size: 17px;
@@ -873,7 +871,7 @@
   }
 
   #input {
-    font-family: 'Poppins';
+    font-family: 'Poppins', sans-serif;
     font-style: normal;
     font-weight: 400;
     font-size: 17px;
@@ -892,6 +890,5 @@
   #get-in-touch {
     width: 130px;
     height: 45px;
-
   }
 }
