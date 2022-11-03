@@ -354,7 +354,7 @@
   }
 
   #contact-line {
-    font-family: 'Poppins';
+    font-family: 'Poppins', sans-serif;
     font-style: normal;
     font-weight: 700;
     font-size: 40px;
@@ -395,7 +395,7 @@
   }
 
   #contact-para {
-    font-family: 'Poppins';
+    font-family: 'Poppins', sans-serif;
     font-style: normal;
     font-weight: 400;
     font-size: 20px;
@@ -405,7 +405,7 @@
   }
 
   form {
-    font-family: 'Poppins';
+    font-family: 'Poppins', sans-serif;
     font-style: normal;
     font-weight: 400;
     font-size: 17px;
@@ -432,12 +432,10 @@
   #get-in-touch {
     width: 130px;
     height: 45px;
-
   }
 }
 
 @media (min-width: 768px) {
-
   .container {
     display: flex;
     justify-content: space-between;
@@ -466,7 +464,7 @@
 
   .option-list-items {
     padding-right: 60px;
-    font-family: 'Poppins';
+    font-family: 'Poppins', sans-serif;
     font-style: normal;
     font-weight: 500;
     font-size: 15px;
@@ -845,7 +843,7 @@
   }
 
   #contact-para {
-    font-family: 'Poppins';
+    font-family: 'Poppins', sans-serif;
     font-style: normal;
     font-weight: 400;
     font-size: 20px;
@@ -863,7 +861,7 @@
   }
 
   form {
-    font-family: 'Poppins';
+    font-family: 'Poppins', sans-serif;
     font-style: normal;
     font-weight: 400;
     font-size: 17px;
@@ -871,7 +869,7 @@
   }
 
   #input {
-    font-family: 'Poppins';
+    font-family: 'Poppins', sans-serif;
     font-style: normal;
     font-weight: 400;
     font-size: 17px;
