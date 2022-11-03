@@ -2,7 +2,7 @@
 
 # Project Name
 
-Portfolio Setup and Mobile first
+Portfolio
 
 ### Project Description
 
