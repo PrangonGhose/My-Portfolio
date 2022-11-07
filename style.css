@@ -1,5 +1,23 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@500;600;700&display=swap");
 
+/* Done by my partner */
+.logo-placeholder {
+  animation: rotateZ 5s;
+}
+
+@keyframes rotateZ {
+  to {
+    transform: rotateZ(-3240deg);
+  }
+}
+
+/* Done by me */
+.all-projects:hover {
+  transform: scale(0.75);
+  box-shadow: darkslategrey;
+  box-shadow: 20px;
+}
+
 @media (min-width: 360px) and (max-width: 499px) {
   .container {
     display: flex;
