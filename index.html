@@ -37,9 +37,9 @@
                 <h1 class="primary-text">
                     I'm Prangon<br>Glad to see you!
                 </h1>
-                <p class="description">
+                <p  class="description" role="article">
                     I’m a software developer! I can help you build a product, feature or website Look through some of my
-                    work and experience! If you like what you see and have a project you need coded, don’t hestiate to
+                    work and experience! If you like what you see and have a project you need coded, don’t hesitate to
                     contact me.
                 </p>
                 <div class="social-media">
@@ -73,13 +73,13 @@
                 <div class="canopy-segment">
                     <h2 class="canopy">CANOPY</h2>
                     <ul class="canopy-items">
-                        <li><img src="images\Counter.svg"></li>
+                        <li><img src="images\Counter.svg" alt=""></li>
                         <li class="item">Back End Dev</li>
-                        <li><img src="images\Counter.svg"></li>
+                        <li><img src="images\Counter.svg" alt=""></li>
                         <li class="item">2022</li>
                     </ul>
                 </div>
-                <p class="project-description">
+                <p class="project-description" role="article">
                     A daily selection of privately personalized
                     reads; no accounts or sign-ups required.
                 </p>
@@ -101,13 +101,13 @@
                 <div class="canopy-segment">
                     <h2 class="canopy">CANOPY</h2>
                     <ul class="canopy-items">
-                        <li><img src="images\Counter.svg"></li>
+                        <li><img src="images\Counter.svg" alt=""></li>
                         <li class="item">Back End Dev</li>
-                        <li><img src="images\Counter.svg"></li>
+                        <li><img src="images\Counter.svg" alt=""></li>
                         <li class="item">2022</li>
                     </ul>
                 </div>
-                <p class="project-description">
+                <p class="project-description" role="article">
                     A daily selection of privately personalized
                     reads; no accounts or sign-ups required.
                 </p>
@@ -129,13 +129,13 @@
                 <div class="canopy-segment">
                     <h2 class="canopy">CANOPY</h2>
                     <ul class="canopy-items">
-                        <li><img src="images\Counter.svg"></li>
+                        <li><img src="images\Counter.svg" alt=""></li>
                         <li class="item">Back End Dev</li>
-                        <li><img src="images\Counter.svg"></li>
+                        <li><img src="images\Counter.svg" alt=""></li>
                         <li class="item">2022</li>
                     </ul>
                 </div>
-                <p class="project-description">
+                <p class="project-description" role="article">
                     A daily selection of privately personalized
                     reads; no accounts or sign-ups required.
                 </p>
@@ -157,13 +157,13 @@
                 <div class="canopy-segment">
                     <h2 class="canopy">CANOPY</h2>
                     <ul class="canopy-items">
-                        <li><img src="images\Counter.svg"></li>
+                        <li><img src="images\Counter.svg" alt=""></li>
                         <li class="item">Back End Dev</li>
-                        <li><img src="images\Counter.svg"></li>
+                        <li><img src="images\Counter.svg" alt=""></li>
                         <li class="item">2022</li>
                     </ul>
                 </div>
-                <p class="project-description">
+                <p class="project-description" role="article">
                     A daily selection of privately personalized
                     reads; no accounts or sign-ups required.
                 </p>
@@ -180,7 +180,7 @@
     <section class="about-section">
         <div class="headline-about">
             <h1 class="primary-text">About Myself</h1>
-            <p class="description">
+            <p class="description" role="article">
                 Hello I’m a software developer! I can help
                 you build a product , feature or website
                 Look through some of my work and experience!
@@ -203,45 +203,44 @@
             </div>
         </div>
         <div class="languages">
-            <h3 id="lang">
-                <p>Languages</p>
-                <img src="images\Union.svg">
+            <h3 id="lang">Languages
+                <img src="images\Union.svg" alt="Expand-Languages">
             </h3>
             <ul class="coding-languages-images">
                 <li><img src="images\java.svg" alt="JavaScript"></li>
                 <li><img src="images\html.svg" alt="HTML"></li>
                 <li><img src="images\css.svg" alt="CSS"></li>
             </ul>
-            <article class="framework">
-                <p>Frameworks</p>
-                <hr>
-                <img src="images\sidearrow.svg">
-            </article>
+            <h3 class="framework">Frameworks
+                <img src="images\sidearrow.svg" alt="Expand-Frameworks">
+            </h3>
             <div class="horizontal-line"></div>
-            <article class="skill">
-                <p>Skills</p>
-                <img src="images\sidearrow.svg">
-            </article>
+            <h3 class="skill">Skills
+                <img src="images\sidearrow.svg" alt="Expand-Skills">
+            </h3>
             <div class="horizontal-line"></div>
         </div>
     </section>
 
     <section class="contact-me">
         <div id="contact-div">
-            <img src="images/Ellipse 3.png" id="ellipse-3">
-            <img src="images/Ellipse 5.png" id="ellipse-5">
-            <img src="images/Ellipse 12.png" id="ellipse-12">
-            <img src="images/Rectangle 4.png" id="rectangle-4">
-            <img src="images/Rectangle 7.png" id="rectangle-7">
+            <img src="images/Ellipse 3.png" id="ellipse-3" alt="">
+            <img src="images/Ellipse 5.png" id="ellipse-5" alt="">
+            <img src="images/Ellipse 12.png" id="ellipse-12" alt="">
+            <img src="images/Rectangle 4.png" id="rectangle-4" alt="">
+            <img src="images/Rectangle 7.png" id="rectangle-7" alt="">
             <h2 id="contact-line">Contact me</h2>
-            <p id="contact-para">
+            <p id="contact-para" role="article">
                 If you have an application you are interested in developing, a feature that you need built or a project
                 that needs coding. I’d love to help with it
             </p>
             <div class="form-div">
                 <form action="https://formspree.io/f/{form_id}" method="post">
+                    <label for="name" hidden>Name</label>
                     <input type="text" name="name" id="input" maxlength="30" placeholder="Name" required>
+                    <label for="email" hidden>Email</label>
                     <input type="email" name="email" id="input" placeholder="abc@xyz.com" required>
+                    <label for="message" hidden>Message</label>
                     <textarea name="message" id="input" cols="30" rows="10" maxlength="500"
                         placeholder="Write your message here" required></textarea>
                     <button type="submit" class="see-project" id="get-in-touch">Get in Touch</button>
