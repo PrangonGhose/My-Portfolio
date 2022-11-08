@@ -1,6 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@500;600;700&display=swap");
 
-/* Done by my partner */
 .logo-placeholder {
   animation: rotateZ 5s;
 }
@@ -11,7 +10,6 @@
   }
 }
 
-/* Done by me */
 .all-projects:hover {
   transform: scale(0.75);
   box-shadow: darkslategrey;
@@ -54,7 +52,7 @@
     font-weight: 700;
     font-size: 18px;
     line-height: 20px;
-    color: #6070ff;
+    color: #02094e;
     text-decoration: none;
   }
 
@@ -243,18 +241,18 @@
   }
 
   .see-project:enabled {
-    color: #6070ff;
+    color: #02094e;
     background-color: #fff;
   }
 
   .see-project:hover {
     color: #fff;
-    background: #6070ff;
+    background: #02094e;
   }
 
   .see-project:active {
     color: #fff;
-    background: #2230d2;
+    background: #02094e;
   }
 
   .see-project:disabled {
@@ -450,6 +448,11 @@
   #get-in-touch {
     width: 130px;
     height: 45px;
+  }
+
+  #get-in-touch:hover {
+    color: #fff;
+    background-color: #02094e;
   }
 }
 
@@ -489,7 +492,7 @@
     font-weight: 700;
     font-size: 18px;
     line-height: 20px;
-    color: #6070ff;
+    color: #02094e;
     text-decoration: none;
   }
 
@@ -678,18 +681,18 @@
   }
 
   .see-project:enabled {
-    color: #6070ff;
+    color: #02094e;
     background-color: #fff;
   }
 
   .see-project:hover {
     color: #fff;
-    background: #6070ff;
+    background: #02094e;
   }
 
   .see-project:active {
     color: #fff;
-    background: #2230d2;
+    background: #02094e;
   }
 
   .see-project:disabled {
@@ -885,6 +888,11 @@
   #get-in-touch {
     width: 130px;
     height: 45px;
+  }
+
+  #get-in-touch:hover {
+    color: #fff;
+    background-color: #02094e;
   }
 }
 
@@ -942,7 +950,7 @@
     font-weight: 700;
     font-size: 18px;
     line-height: 20px;
-    color: #6070ff;
+    color: #02094e;
     text-decoration: none;
     margin: auto;
   }
@@ -1144,18 +1152,18 @@
   }
 
   .see-project:enabled {
-    color: #6070ff;
+    color: #02094e;
     background-color: #fff;
   }
 
   .see-project:hover {
     color: #fff;
-    background: #6070ff;
+    background: #02094e;
   }
 
   .see-project:active {
     color: #fff;
-    background: #2230d2;
+    background: #02094e;
   }
 
   .see-project:disabled {
@@ -1343,5 +1351,10 @@
     height: 45px;
     text-align: center;
     margin: auto;
+  }
+
+  #get-in-touch:hover {
+    color: #fff;
+    background-color: #02094e;
   }
 }
