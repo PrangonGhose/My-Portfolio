@@ -10,6 +10,9 @@ In this simple portfolio project, I have tried to imitate a template from figma 
 
 The project is live at https://prangonghose.github.io/My-Portfolio/
 
+## Project walkthrough
+https://www.loom.com/share/cef8a46687834e97a59855e871684f24
+
 ## Built With
 
 - HTML, CSS
