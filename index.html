@@ -13,11 +13,11 @@
 <body>
     <div class="mobile-menu">
         <div class="mobile-menu-background"></div>
-        <img src="images/Iconcross-btn.png" alt="" class="cross-button">
+        <img src="images/Iconcross-btn.png" alt="" class="cross-button" onclick="backToNormal()">
         <ul class="mobile-menu-list">
-            <li class="mobile-menu-listItems"><a href="#" class="option-list-items">Portfolio</a></li>
-            <li class="mobile-menu-listItems"><a href="#" class="option-list-items">About</a></li>
-            <li class="mobile-menu-listItems"><a href="#" class="option-list-items">Contact</a></li>
+            <li class="mobile-menu-listItems" onclick="backToNormal()"><a href="#portfolio" class="option-list-items">Portfolio</a></li>
+            <li class="mobile-menu-listItems" onclick="backToNormal()"><a href="#about" class="option-list-items">About</a></li>
+            <li class="mobile-menu-listItems" onclick="backToNormal()"><a href="#contact" class="option-list-items">Contact</a></li>
         </ul>
     </div>
     <header>
@@ -27,7 +27,7 @@
             </div>
             <div class="menu">
                 <div class="icon">
-                    <nav class="union">
+                    <nav class="union" onclick="mobileMenu()">
                         <img src="images/Union.png" alt="menu-image" class="menu-image">
                     </nav>
                     <nav class="portfolio-options">
@@ -74,7 +74,7 @@
         </div>
     </section>
 
-    <section class="project">
+    <section class="project" id="portfolio">
         <div class="all-projects">
             <div class="image-container">
                 <img class="photo-grid" src="images\Tonic1.svg" alt="Project picture">
@@ -188,7 +188,7 @@
         </div>
     </section>
 
-    <section class="about-section">
+    <section class="about-section" id="about">
         <div class="headline-about">
             <h1 class="primary-text">About Myself</h1>
             <p class="description" role="article">
@@ -233,7 +233,7 @@
         </div>
     </section>
 
-    <section class="contact-me">
+    <section class="contact-me" id="contact">
         <div id="contact-div">
             <img src="images/Ellipse 3.png" id="ellipse-3" alt="">
             <img src="images/Ellipse 5.png" id="ellipse-5" alt="">
