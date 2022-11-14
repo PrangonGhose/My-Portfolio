@@ -120,15 +120,19 @@
   }
 
   .mobile-menu {
-    background-color: rgba(96, 112, 255, 1);
     border-radius: 10px;
-    /* text-align: center; */
     position: absolute;
     width: 100%;
     height: 100vh;
     top: 0;
-    /* display: flex;
-    flex-wrap: wrap; */
+  }
+
+  .mobile-menu-background {
+    position: inherit;
+    background-color: rgba(96, 112, 255, 0.75);
+    backdrop-filter: blur(5px);
+    height: 100%;
+    width: 100%;
   }
 
   .mobile-menu-listItems {
@@ -140,6 +144,7 @@
     margin-top: 70px;
     margin-bottom: 0;
     list-style: none;
+    position: relative;
   }
 
   .mobile-menu-listItems > a {
@@ -148,8 +153,11 @@
   }
 
   .cross-button {
-    size: 20px 20px;
-    
+    position: inherit;
+    max-width: 30px;
+    max-height: 30px;
+    right: 35px;
+    top: 30px;
   }
 
   .project {
