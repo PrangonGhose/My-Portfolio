@@ -10,6 +10,15 @@
 </head>
 
 <body>
+    <div class="mobile-menu">
+        <div class="mobile-menu-background"></div>
+        <img src="images/Iconcross-btn.png" alt="" class="cross-button">
+        <ul class="mobile-menu-list">
+            <li class="mobile-menu-listItems"><a href="#portfolio" class="option-list-items">Portfolio</a></li>
+            <li class="mobile-menu-listItems"><a href="#about" class="option-list-items">About</a></li>
+            <li class="mobile-menu-listItems"><a href="#contact" class="option-list-items">Contact</a></li>
+        </ul>
+    </div>
     <header>
         <div class="container">
             <div class="logo-placeholder">
@@ -31,13 +40,14 @@
             </div>
         </div>
     </header>
+
     <section class="container-headline">
         <div class="background">
             <div class="headline">
                 <h1 class="primary-text">
                     I'm Prangon<br>Glad to see you!
                 </h1>
-                <p  class="description" role="article">
+                <p class="description" role="article">
                     I’m a software developer! I can help you build a product, feature or website Look through some of my
                     work and experience! If you like what you see and have a project you need coded, don’t hesitate to
                     contact me.
@@ -63,7 +73,7 @@
         </div>
     </section>
 
-    <section class="project">
+    <section class="project" id="portfolio">
         <div class="all-projects">
             <div class="image-container">
                 <img class="photo-grid" src="images\Tonic1.svg" alt="Project picture">
@@ -177,7 +187,7 @@
         </div>
     </section>
 
-    <section class="about-section">
+    <section class="about-section" id="about">
         <div class="headline-about">
             <h1 class="primary-text">About Myself</h1>
             <p class="description" role="article">
@@ -222,7 +232,7 @@
         </div>
     </section>
 
-    <section class="contact-me">
+    <section class="contact-me" id="contact">
         <div id="contact-div">
             <img src="images/Ellipse 3.png" id="ellipse-3" alt="">
             <img src="images/Ellipse 5.png" id="ellipse-5" alt="">
@@ -248,7 +258,7 @@
             </div>
         </div>
     </section>
-
+    <script src="script.js"></script>
 </body>
 
 </html>
