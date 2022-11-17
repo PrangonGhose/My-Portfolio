@@ -211,3 +211,33 @@ form.addEventListener('submit', (event) => {
     submit.classList.add('invalid');
   }
 });
+
+/* Using local storage */
+
+let storedData = {
+  name: '',
+  email: '',
+  text: '',
+};
+
+const nameValue = document.querySelector('.name');
+const emailValue = document.querySelector('.email');
+const textValue = document.querySelector('.text-input');
+
+function dataStore() {
+  localStorage.setItem('name', JSON.stringify(storedData));
+}
+
+form.addEventListener('change', () => {
+  storedData.name = nameValue.value;
+  storedData.email = emailValue.value;
+  storedData.text = textValue.value;
+  dataStore();
+});
+
+if (JSON.parse(localStorage.getItem('name')) !== null) {
+  storedData = JSON.parse(localStorage.getItem('name'));
+  nameValue.setAttribute('value', storedData.name);
+  emailValue.setAttribute('value', storedData.email);
+  textValue.value = storedData.text;
+}
