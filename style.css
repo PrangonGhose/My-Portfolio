@@ -182,10 +182,8 @@ body {
   }
 
   .pop-up {
-    background-color: #c1c7d0;
+    background-color: #c1c7d0b9;
     padding: 10% 3%;
-    height: 100vh;
-    width: 100vw;
     position: fixed;
     overflow-y: scroll;
     bottom: 0;
@@ -194,6 +192,7 @@ body {
 
   .pop-up-container {
     background-color: white;
+    box-shadow: 20px 20px 5px darkslategrey;
     display: flex;
     flex-wrap: wrap;
     flex-direction: column;
@@ -244,6 +243,7 @@ body {
   .pop-up-text {
     display: flex;
     flex-wrap: wrap;
+    width: 100%;
   }
 
   .pop-up-list-buttons {
@@ -253,18 +253,18 @@ body {
   .pop-up-buttons {
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-evenly;
+    gap: 1em;
   }
 
   .pop-up-buttonItem1 {
     justify-content: center;
     flex-grow: 1;
-    flex-shrink: 1;
+    width: 45%;
   }
 
   .pop-up-buttonItem2 {
     flex-grow: 1;
-    flex-shrink: 1;
+    width: 45%;
     justify-content: center;
   }
 
@@ -346,6 +346,7 @@ body {
 
   .coding-languages {
     display: flex;
+    flex-wrap: wrap;
     font-family: 'Poppins-normal', sans-serif;
     font-weight: 500;
     font-size: 12px;
@@ -767,7 +768,7 @@ body {
   }
 
   .pop-up {
-    background-color: #c1c7d0;
+    background-color: #c1c7d0b9;
     padding: 10% 3%;
     position: fixed;
     overflow-y: scroll;
@@ -777,6 +778,7 @@ body {
 
   .pop-up-container {
     background-color: white;
+    box-shadow: 20px 20px 5px darkslategrey;
     display: flex;
     flex-wrap: wrap;
     flex-direction: column;
@@ -1316,16 +1318,19 @@ body {
   }
 
   .pop-up {
-    background-color: #c1c7d0;
+    background-color: #c1c7d0b9;
     border-radius: 20px;
-    padding: 7%;
+    padding: 1% 15%;
     position: fixed;
     overflow-y: scroll;
     top: 0;
     bottom: 0;
+    left: 0;
+    right: 0;
   }
 
   .pop-up-container {
+    box-shadow: 20px 20px 5px darkslategrey;
     background-color: white;
     display: flex;
     flex-wrap: wrap;
@@ -1342,7 +1347,7 @@ body {
   }
 
   .pop-up-title {
-    margin-right: auto;
+    margin: 0;
   }
 
   .disabled-button {
@@ -1366,8 +1371,14 @@ body {
     width: 100%;
   }
 
+  .desktop-project-image {
+    display: flex;
+    justify-content: center;
+  }
+
   .desktop-project-image img {
-    width: 100%;
+    max-height: 300px;
+    width: 80%;
   }
 
   .mobile-project-image {
