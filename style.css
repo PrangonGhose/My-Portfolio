@@ -615,6 +615,7 @@ body {
     border-radius: 3px;
     background-color: #fff;
     visibility: hidden;
+    z-index: 100;
   }
 
   .valid {
@@ -1219,6 +1220,7 @@ body {
     border-radius: 3px;
     background-color: #fff;
     visibility: hidden;
+    z-index: 100;
   }
 
   .valid {
@@ -1806,6 +1808,7 @@ body {
     border-radius: 3px;
     background-color: #fff;
     visibility: hidden;
+    z-index: 100;
   }
 
   .valid {

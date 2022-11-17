@@ -207,7 +207,7 @@ form.addEventListener('submit', (event) => {
     submit.classList.add('valid');
   } else {
     event.preventDefault();
-    submit.innerText = 'Insert valid email';
+    submit.innerText = 'Insert valid email with only lowercase letters';
     submit.classList.add('invalid');
   }
 });
