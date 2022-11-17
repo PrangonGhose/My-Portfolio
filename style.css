@@ -11,8 +11,12 @@
 }
 
 .all-projects:hover {
-  transform: scale(0.75);
+  transform: scale(1.05);
   box-shadow: 20px 20px 5px darkslategrey;
+}
+
+body {
+  margin: 0;
 }
 
 @media (min-width: 360px) and (max-width: 499px) {
@@ -177,6 +181,93 @@
     cursor: pointer;
   }
 
+  .pop-up {
+    background-color: #c1c7d0b9;
+    padding: 10% 3%;
+    position: fixed;
+    overflow-y: scroll;
+    bottom: 0;
+    top: 0;
+  }
+
+  .pop-up-container {
+    background-color: white;
+    box-shadow: 20px 20px 5px darkslategrey;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: center;
+    padding: 3%;
+    border-radius: 20px;
+  }
+
+  .pop-up-head {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+  }
+
+  .pop-up-title {
+    margin-right: auto;
+  }
+
+  .disabled-button {
+    margin-left: auto;
+    margin-top: auto;
+    margin-bottom: auto;
+    cursor: pointer;
+  }
+
+  .pop-up-canopy {
+    width: 100%;
+    display: flex;
+    justify-content: flex-start;
+  }
+
+  .canopy-items li {
+    display: inline;
+  }
+
+  .pop-up-image {
+    width: 100%;
+  }
+
+  .mobile-project-image img {
+    width: 100%;
+  }
+
+  .desktop-project-image {
+    display: none;
+  }
+
+  .pop-up-text {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+  }
+
+  .pop-up-list-buttons {
+    width: 100%;
+  }
+
+  .pop-up-buttons {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1em;
+  }
+
+  .pop-up-buttonItem1 {
+    justify-content: center;
+    flex-grow: 1;
+    width: 45%;
+  }
+
+  .pop-up-buttonItem2 {
+    flex-grow: 1;
+    width: 45%;
+    justify-content: center;
+  }
+
   .project {
     display: grid;
     margin-top: 100px;
@@ -188,6 +279,7 @@
   .all-projects {
     display: flex;
     flex-wrap: wrap;
+    justify-content: center;
     width: 327px;
     background-color: #fff;
     border-radius: 16px;
@@ -254,6 +346,7 @@
 
   .coding-languages {
     display: flex;
+    flex-wrap: wrap;
     font-family: 'Poppins-normal', sans-serif;
     font-weight: 500;
     font-size: 12px;
@@ -511,6 +604,27 @@
   #get-in-touch:hover {
     color: #fff;
     background-color: #02094e;
+  }
+
+  .submit-message {
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    text-align: center;
+    margin-top: 1em;
+    padding: 5px;
+    border-radius: 3px;
+    background-color: #fff;
+    visibility: hidden;
+  }
+
+  .valid {
+    background-color: green;
+    visibility: visible;
+  }
+
+  .invalid {
+    background-color: red;
+    visibility: visible;
   }
 }
 
@@ -674,6 +788,92 @@
     cursor: pointer;
   }
 
+  .pop-up {
+    background-color: #c1c7d0b9;
+    padding: 10% 3%;
+    position: fixed;
+    overflow-y: scroll;
+    bottom: 0;
+    top: 0;
+  }
+
+  .pop-up-container {
+    background-color: white;
+    box-shadow: 20px 20px 5px darkslategrey;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: center;
+    padding: 3%;
+    border-radius: 20px;
+  }
+
+  .pop-up-head {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+  }
+
+  .pop-up-title {
+    margin-right: auto;
+  }
+
+  .disabled-button {
+    margin-left: auto;
+    margin-top: auto;
+    margin-bottom: auto;
+    cursor: pointer;
+  }
+
+  .pop-up-canopy {
+    width: 100%;
+    display: flex;
+    justify-content: flex-start;
+  }
+
+  .canopy-items li {
+    display: inline;
+  }
+
+  .pop-up-image {
+    width: 100%;
+  }
+
+  .mobile-project-image img {
+    width: 100%;
+  }
+
+  .desktop-project-image {
+    display: none;
+  }
+
+  .pop-up-text {
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  .pop-up-list-buttons {
+    width: 100%;
+  }
+
+  .pop-up-buttons {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+  }
+
+  .pop-up-buttonItem1 {
+    justify-content: center;
+    flex-grow: 1;
+    flex-shrink: 1;
+  }
+
+  .pop-up-buttonItem2 {
+    flex-grow: 1;
+    flex-shrink: 1;
+    justify-content: center;
+  }
+
   .project {
     display: grid;
     margin-top: 100px;
@@ -1009,6 +1209,27 @@
     color: #fff;
     background-color: #02094e;
   }
+
+  .submit-message {
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    text-align: center;
+    margin-top: 1em;
+    padding: 5px;
+    border-radius: 3px;
+    background-color: #fff;
+    visibility: hidden;
+  }
+
+  .valid {
+    background-color: green;
+    visibility: visible;
+  }
+
+  .invalid {
+    background-color: red;
+    visibility: visible;
+  }
 }
 
 @media (min-width: 768px) {
@@ -1138,6 +1359,104 @@
     display: none;
   }
 
+  .pop-up {
+    background-color: #c1c7d0b9;
+    border-radius: 20px;
+    padding: 1% 15%;
+    position: fixed;
+    overflow-y: scroll;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+  }
+
+  .pop-up-container {
+    box-shadow: 20px 20px 5px darkslategrey;
+    background-color: white;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: center;
+    padding: 3%;
+    border-radius: 20px;
+  }
+
+  .pop-up-head {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+  }
+
+  .pop-up-title {
+    margin: 0;
+  }
+
+  .disabled-button {
+    margin-left: auto;
+    margin-top: auto;
+    margin-bottom: auto;
+    cursor: pointer;
+  }
+
+  .pop-up-canopy {
+    width: 100%;
+    display: flex;
+    justify-content: flex-start;
+  }
+
+  .canopy-items li {
+    display: inline;
+  }
+
+  .pop-up-image {
+    width: 100%;
+  }
+
+  .desktop-project-image {
+    display: flex;
+    justify-content: center;
+  }
+
+  .desktop-project-image img {
+    max-height: 300px;
+    width: 80%;
+  }
+
+  .mobile-project-image {
+    display: none;
+  }
+
+  .pop-up-text {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1em;
+  }
+
+  .pop-up-list-buttons {
+    width: 35%;
+  }
+
+  .pop-up-buttons {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.5em;
+  }
+
+  .pop-up-buttonItem1 {
+    justify-content: center;
+    flex-grow: 1;
+  }
+
+  .pop-up-buttonItem2 {
+    justify-content: center;
+    flex-grow: 1;
+  }
+
+  .pop-up-para {
+    width: 60%;
+  }
+
   .project {
     display: flex;
     flex-wrap: wrap;
@@ -1227,6 +1546,7 @@
 
   .coding-languages {
     display: flex;
+    flex-wrap: wrap;
     font-family: 'Poppins-normal', sans-serif;
     font-weight: 500;
     font-size: 12px;
@@ -1475,5 +1795,26 @@
   #get-in-touch:hover {
     color: #fff;
     background-color: #02094e;
+  }
+
+  .submit-message {
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    text-align: center;
+    margin-top: 1em;
+    padding: 5px;
+    border-radius: 3px;
+    background-color: #fff;
+    visibility: hidden;
+  }
+
+  .valid {
+    background-color: green;
+    visibility: visible;
+  }
+
+  .invalid {
+    background-color: red;
+    visibility: visible;
   }
 }
