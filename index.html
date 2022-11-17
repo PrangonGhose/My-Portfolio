@@ -10,7 +10,8 @@
 </head>
 
 <body>
-    <div class="mobile-menu">
+
+    <section class="mobile-menu">
         <div class="mobile-menu-background"></div>
         <img src="images/Iconcross-btn.png" alt="" class="cross-button">
         <ul class="mobile-menu-list">
@@ -18,7 +19,8 @@
             <li class="mobile-menu-listItems"><a href="#about" class="option-list-items">About</a></li>
             <li class="mobile-menu-listItems"><a href="#contact" class="option-list-items">Contact</a></li>
         </ul>
-    </div>
+    </section>
+
     <header>
         <div class="container">
             <div class="logo-placeholder">
@@ -98,7 +100,7 @@
                     <li class="item-languages">css</li>
                     <li class="item-languages">JavaScript</li>
                 </ul>
-                <button class="see-project">See Project</button>
+                <button class="see-project see-more" id="0">See Project</button>
             </div>
         </div>
 
@@ -126,7 +128,7 @@
                     <li class="item-languages">css</li>
                     <li class="item-languages">JavaScript</li>
                 </ul>
-                <button class="see-project">See Project</button>
+                <button class="see-project see-more" id="1">See Project</button>
             </div>
         </div>
 
@@ -154,7 +156,7 @@
                     <li class="item-languages">css</li>
                     <li class="item-languages">JavaScript</li>
                 </ul>
-                <button class="see-project">See Project</button>
+                <button class="see-project see-more" id="2">See Project</button>
             </div>
         </div>
 
@@ -182,7 +184,7 @@
                     <li class="item-languages">css</li>
                     <li class="item-languages">JavaScript</li>
                 </ul>
-                <button class="see-project">See Project</button>
+                <button class="see-project see-more" id="3">See Project</button>
             </div>
         </div>
     </section>
@@ -245,17 +247,18 @@
                 that needs coding. I’d love to help with it
             </p>
             <div class="form-div">
-                <form action="https://formspree.io/f/{form_id}" method="post">
+                <form class="get-in-touch" action="https://formspree.io/f/{form_id}" method="post">
                     <label for="name" hidden>Name</label>
                     <input type="text" name="name" id="input" maxlength="30" placeholder="Name" required>
                     <label for="email" hidden>Email</label>
-                    <input type="email" name="email" id="input" placeholder="abc@xyz.com" required>
+                    <input type="email" class='email' name="email" id="input" placeholder="abc@xyz.com" required>
                     <label for="message" hidden>Message</label>
                     <textarea name="message" id="input" cols="30" rows="10" maxlength="500"
                         placeholder="Write your message here" required></textarea>
                     <button type="submit" class="see-project" id="get-in-touch">Get in Touch</button>
                 </form>
             </div>
+            <small class="submit-message"><strong>Submitted</strong></small>
         </div>
     </section>
     <script src="script.js"></script>
