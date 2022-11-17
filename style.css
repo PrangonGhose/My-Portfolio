@@ -605,6 +605,28 @@ body {
     color: #fff;
     background-color: #02094e;
   }
+
+  .submit-message {
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    text-align: center;
+    margin-top: 1em;
+    padding: 5px;
+    border-radius: 3px;
+    background-color: #fff;
+    visibility: hidden;
+    z-index: 100;
+  }
+
+  .valid {
+    background-color: green;
+    visibility: visible;
+  }
+
+  .invalid {
+    background-color: red;
+    visibility: visible;
+  }
 }
 
 @media (min-width: 500px) and (max-width: 767px) {
@@ -1188,6 +1210,28 @@ body {
     color: #fff;
     background-color: #02094e;
   }
+
+  .submit-message {
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    text-align: center;
+    margin-top: 1em;
+    padding: 5px;
+    border-radius: 3px;
+    background-color: #fff;
+    visibility: hidden;
+    z-index: 100;
+  }
+
+  .valid {
+    background-color: green;
+    visibility: visible;
+  }
+
+  .invalid {
+    background-color: red;
+    visibility: visible;
+  }
 }
 
 @media (min-width: 768px) {
@@ -1753,5 +1797,27 @@ body {
   #get-in-touch:hover {
     color: #fff;
     background-color: #02094e;
+  }
+
+  .submit-message {
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    text-align: center;
+    margin-top: 1em;
+    padding: 5px;
+    border-radius: 3px;
+    background-color: #fff;
+    visibility: hidden;
+    z-index: 100;
+  }
+
+  .valid {
+    background-color: green;
+    visibility: visible;
+  }
+
+  .invalid {
+    background-color: red;
+    visibility: visible;
   }
 }
