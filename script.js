@@ -182,3 +182,32 @@ seeProject.forEach((button) => {
     });
   });
 });
+
+/* Form validation */
+
+const form = document.querySelector('.get-in-touch');
+const email = document.querySelector('.email');
+const submit = document.querySelector('.submit-message');
+
+function validation() {
+  const temp = email.value.toLowerCase();
+  let valid = true;
+  for (let i = 0; i < temp.length; i += 1) {
+    if (temp[i] !== email.value[i]) {
+      valid = false;
+      break;
+    }
+  }
+  return valid;
+}
+
+form.addEventListener('submit', (event) => {
+  const valid = validation();
+  if (valid) {
+    submit.classList.add('valid');
+  } else {
+    event.preventDefault();
+    submit.innerText = 'Insert valid email with only lowercase letters';
+    submit.classList.add('invalid');
+  }
+});
