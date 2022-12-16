@@ -26,66 +26,32 @@ mobileMenuListItems.forEach((item) => {
 
 const projects = [
   {
-    projectName: 'Tonic',
-    projectDescription: `Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis aliquid cupiditate vitae
-  tempore temporibus
-  quo, eum pariatur. Neque sed ab in et architecto? In cumque obcaecati temporibus incidunt. A
-  assumenda
-  explicabo
-  perspiciatis soluta tempora facilis suscipit culpa quo, alias nesciunt omnis similique quisquam
-  fuga
-  consectetur
-  error laboriosam! Quis, quos repellendus. Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis aliquid cupiditate vitae
-  tempore temporibus
-  quo, eum pariatur. Neque sed ab in et architecto? In cumque obcaecati temporibus incidunt. A
-  assumenda
-  explicabo.`,
-    projectImage: ['images/Tonic1.svg', 'images/Snapshoot Portfoliodesktop.png'],
+    projectName: 'Campus Hour',
+    projectDescription: `It is a simple project that can be used both in mobile and desktop version. It demonstrates a website ideal for a university festival.`,
+    projectImage: ['images/Campus_hour_project_mobile.jpg', 'images/Campus_hour_project.jpg'],
     projectTechnologies: ['html', 'CSS', 'JavaScript', 'github', 'ruby', 'Bootstraps'],
-    linkToLive: 'https://prangonghose.github.io/My-Portfolio/',
-    linkToSource: 'https://github.com/PrangonGhose/My-Portfolio.git',
+    linkToLive: 'https://prangonghose.github.io/Capstone-Project---University-Campus-Hour/',
+    linkToSource: 'https://github.com/PrangonGhose/Capstone-Project---University-Campus-Hour',
   },
 
   {
-    projectName: 'Multi-Post Stories',
-    projectDescription: `Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis aliquid cupiditate vitae
-    tempore temporibus
-    quo, eum pariatur. Neque sed ab in et architecto? In cumque obcaecati temporibus incidunt. A
-    assumenda
-    explicabo
-    perspiciatis soluta tempora facilis suscipit culpa quo, alias nesciunt omnis similique quisquam
-    fuga
-    consectetur
-    error laboriosam! Quis, quos repellendus. Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis aliquid cupiditate vitae
-    tempore temporibus
-    quo, eum pariatur. Neque sed ab in et architecto? In cumque obcaecati temporibus incidunt. A
-    assumenda
-    explicabo.`,
-    projectImage: ['images/Tonic1.svg', 'images/Snapshoot Portfoliodesktop.png'],
+    projectName: 'Awesome Books Website',
+    projectDescription: `This is a simple website where anyone can store their favourite books along with author's name. The created list will not be removed until removed
+    by the user because of using LocalStorage.`,
+    projectImage: ['images/awesome_books_mobile.jpg', 'images/awesome_books_desktop.jpg'],
     projectTechnologies: ['html', 'CSS', 'JavaScript', 'github', 'ruby', 'Bootstraps'],
-    linkToLive: 'https://prangonghose.github.io/My-Portfolio/',
-    linkToSource: 'https://github.com/PrangonGhose/My-Portfolio.git',
+    linkToLive: 'https://prangonghose.github.io/Awesome-Books-ES6/#form',
+    linkToSource: 'https://github.com/PrangonGhose/Awesome-Books-ES6',
   },
 
   {
-    projectName: 'Tonic',
-    projectDescription: `Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis aliquid cupiditate vitae
-    tempore temporibus
-    quo, eum pariatur. Neque sed ab in et architecto? In cumque obcaecati temporibus incidunt. A
-    assumenda
-    explicabo
-    perspiciatis soluta tempora facilis suscipit culpa quo, alias nesciunt omnis similique quisquam
-    fuga
-    consectetur
-    error laboriosam! Quis, quos repellendus. Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis aliquid cupiditate vitae
-    tempore temporibus
-    quo, eum pariatur. Neque sed ab in et architecto? In cumque obcaecati temporibus incidunt. A
-    assumenda
-    explicabo.`,
-    projectImage: ['images/Tonic1.svg', 'images/Snapshoot Portfoliodesktop.png'],
+    projectName: 'To Do List',
+    projectDescription: `This is a simple website where the user can list and manage daily tasks. User can add, remove, and mark as completed the tasks. Reloading
+    page will keep the task in the app because LocalStorage has been used. All completed tasks can be deleted at once.`,
+    projectImage: ['images/to_do_list_mobile.jpg', 'images/to_do_list_desktop.jpg'],
     projectTechnologies: ['html', 'CSS', 'JavaScript', 'github', 'ruby', 'Bootstraps'],
-    linkToLive: 'https://prangonghose.github.io/My-Portfolio/',
-    linkToSource: 'https://github.com/PrangonGhose/My-Portfolio.git',
+    linkToLive: 'https://prangonghose.github.io/To-do-list/dist/',
+    linkToSource: 'https://github.com/PrangonGhose/To-do-list',
   },
 
   {
