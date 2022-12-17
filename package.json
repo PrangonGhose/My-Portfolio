@@ -318,5 +318,13 @@
     "yargs-parser": "^20.2.9",
     "zwitch": "^1.0.5"
   },
-  "description": ""
+  "description": "![](https://img.shields.io/badge/Microverse-blueviolet)",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/PrangonGhose/My-Portfolio.git"
+  },
+  "bugs": {
+    "url": "https://github.com/PrangonGhose/My-Portfolio/issues"
+  },
+  "homepage": "https://github.com/PrangonGhose/My-Portfolio#readme"
 }
