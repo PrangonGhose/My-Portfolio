@@ -27,7 +27,8 @@ mobileMenuListItems.forEach((item) => {
 const projects = [
   {
     projectName: 'Campus Hour',
-    projectDescription: `It is a simple project that can be used both in mobile and desktop version. It demonstrates a website ideal for a university festival.`,
+    projectDescription: `It is a simple project that can be used both in mobile and desktop version. 
+    It demonstrates a website ideal for a university festival.`,
     projectImage: ['images/Campus_hour_project_mobile.jpg', 'images/Campus_hour_project.jpg'],
     projectTechnologies: ['html', 'CSS', 'JavaScript', 'github', 'ruby', 'Bootstraps'],
     linkToLive: 'https://prangonghose.github.io/Capstone-Project---University-Campus-Hour/',
